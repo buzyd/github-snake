@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Generate Snake
-        uses: platane/platane@v2.0.0
+        uses: platane/platane@latest # استخدم latest بدلاً من v2.0.0
         with:
           github_user: buzyd
           svg_out: snake.svg
